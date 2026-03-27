@@ -2,6 +2,7 @@ import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 
 const STEPS = ["Searching the web...", "Analyzing sources...", "Writing report..."];
+const API_URL = "https://research-report-agent.onrender.com";
 
 export default function App() {
   const [topic, setTopic] = useState("");
@@ -25,7 +26,7 @@ export default function App() {
     }, 4000);
 
     try {
-      const res = await fetch("http://localhost:8000/research", {
+      const res = await fetch(`${API_URL}/research`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic }),
