@@ -4,6 +4,8 @@ A full-stack Agentic AI application that researches any topic on the web and gen
 
 ![Tech Stack](https://img.shields.io/badge/LangGraph-Agent-blue) ![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange) ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green) ![React](https://img.shields.io/badge/React-Frontend-61dafb)
 
+**Live Demo:** https://research-report-agent-gules.vercel.app
+
 ---
 
 ## How It Works
